@@ -36,10 +36,15 @@ header > .container{
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	font-weight: normal;
+	color: #303134;
 }
 
 
 /*section s-1*/
+
+.s-1{
+	margin-bottom: 150px;
+}
 
 .bigbox{
 
@@ -81,6 +86,7 @@ header > .container{
 	font-family: "BPG Arial", sans-serif;
 	font-size: 78px;
 	line-height: 52px;
+	color: #FFFFFF;
 
 
 }
@@ -99,8 +105,152 @@ header > .container{
 	line-height: 37px;
 	position: relative;
 	left: 111px;
+	color: #FFFFFF;
 
 }
 
 /*section s-2*/
 
+.s-2{
+	margin-bottom: 92px;
+}
+
+
+.container {
+
+	width: 1172px;
+	height: 679px;
+	margin: 0 auto;
+	/*background-color: blue;
+	border: 5px solid black;*/
+	display: flex;
+	justify-content: space-between;
+
+}
+
+	
+
+
+.title{
+	width: 241px;
+	height: 240px;
+	position: relative;
+}
+
+
+.title > h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #8D8D8D;
+	position: absolute;
+	top: 0;
+}
+
+.title>h4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #1A1A1B;
+	position: absolute;
+	top: 24px;
+}
+
+.title>p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: 500;
+	color: #8D8D8D;
+	position: absolute;
+	top: 94px;
+	text-align: left;
+
+}
+
+
+.content3{
+	width: 872px;
+	height: 679px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+/*	background-color: blue;*/
+
+}
+
+.card {
+	width: 269px;
+	height: 327px;
+	position: relative;
+	
+}
+
+.card>img{
+	
+	width: 269px;
+	height: 181px;
+
+}
+
+.card>h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #1A1A1B;
+	position: absolute;
+	top: 204px;
+	
+}
+
+.card>p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: 500;
+	color: #8D8D8D;
+	position: absolute;
+	top: 233px;
+	
+}
+
+.cruise>img {
+	object-fit: fill;
+	position: left;
+}
+
+.fire>img{
+	width: 381px;
+	height: 261px;
+	
+	position: relative;
+	top: -75px;
+	left: -120px;
+
+}
+
+.family>img{
+
+	width: 470px;
+	height: 313px;
+	
+	position: relative;
+	top: -56px;
+	left: -115px;
+
+}
+
+.cruise>img{
+	width: 340px;
+	height: 204px;
+	
+	position: relative;
+	top: -19px;
+	left: -49px;
+
+}
